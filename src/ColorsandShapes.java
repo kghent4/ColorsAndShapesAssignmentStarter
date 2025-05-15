@@ -9,12 +9,12 @@ import javax.swing.JComponent;
 import java.awt.*;  
 import javax.swing.JFrame;  
 
-public class JavaGeometricGraphics extends JComponent
+public class ColorsandShapes extends JComponent
 {
   public void paintComponent(Graphics g)
   {
     /*
-    STEP 1: Create Color objects for all colors that
+    Constructors Lesson: Create Color objects for all colors that
             you want to use (at least 3) using different constructors.
             An example is provided below.
     */
@@ -22,7 +22,7 @@ public class JavaGeometricGraphics extends JComponent
     Color color1 = new Color(250, 212, 246);
 
     /*
-    STEP 2: Draw something using the Graphics class in Java!
+    Methods Lesson: Draw something using the Graphics class in Java!
             Use the documentation to see how to create
             shapes, change colors, and display text. The
             Graphics object you will use is called g.
